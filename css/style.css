@@ -481,9 +481,9 @@ body {
 /* Start Contact */
 .contact {
   padding-top: 60px;
-  padding-bottom: calc(60px + 60px);
+  padding-bottom: 60px;
+  background-color: #f6f6f6;
 }
-
 .contact .info {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -496,7 +496,6 @@ body {
   letter-spacing: -2px;
   margin-bottom: 15px;
 }
-
 .contact .info .link {
   display: block;
   font-size: 35px;
@@ -512,7 +511,7 @@ body {
 }
 .contact .info .social i {
   margin-left: 10px;
-  color: var(--secondary-color);
+  color: var(--second-color);
 }
 @media (max-width: 767px) {
   .contact .info .label,
